@@ -1,0 +1,379 @@
+.explore-main {
+    background-color: white;
+    height: 500px;
+    width: 100%;
+    padding: 1vmax;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.div-page {
+    padding: 1vmax;
+    width: 50%;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.div-page .div1 {
+    background-color: white;
+    padding: 1vmax;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px 1px rgb(233, 227, 227);
+}
+
+.div-page .div1 img {
+    width: 50px;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.name-div {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.name-div h5 {
+    font-size: 16px;
+}
+
+.name-div p {
+    font-size: 14px;
+}
+
+.trop-main-div {
+    width: 50%;
+    height: 400px;
+    padding: 1vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.trop-main-div h1 {
+    font-size: 48px;
+    padding: 0.3vmax;
+}
+
+.trop-main-div h3 {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0.3vmax;
+}
+
+.trop-main-div h4 {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0.3vmax;
+}
+
+.trop-list1 {
+    padding: 1vmax;
+}
+
+.trop-list1 ul {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3vmax;
+}
+
+.trop-list1 ul li {
+    padding: 0.3vmax;
+}
+
+.trop-main-div button {
+    padding: 1vmax 2vmax;
+    width: 25%;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(255, 72, 0);
+    color: white;
+    font-weight: 700;
+    transition: all 0.5s;
+}
+
+.trop-main-div button:hover {
+    box-shadow: 1px 4px 5px 1px rgb(255, 72, 0);
+    background-color: white;
+    color: rgb(255, 72, 0);
+    font-weight: 700;
+}
+
+.explore2{
+    transform: translateY(-200px) translateX(50px);
+    position: absolute;
+}
+
+.elipse2 .eli1{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    background: conic-gradient(white 270deg, red 90deg);
+}
+
+.elipse2 .eli2{
+    border-radius: 50%;
+    background: white;
+    height: 50px;
+    width: 50px;
+}
+
+.circle01{
+    transform: translateY(180px) translateX(120px);
+    position: absolute;
+}
+
+.circle01 .cir01{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 90px;
+    background: rgb(165, 224, 165);
+}
+
+.circle01 .cir02{
+    border-radius: 50%;
+    background: white;
+    height: 70px;
+    width: 70px;
+}
+
+
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    .explore-main {
+        height: 670px;
+        width: 100%;
+        padding: 1vmax;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .div-page {
+        padding: 1vmax;
+        width: 100%;
+        height: 370px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .div-page .div1 {
+        background-color: white;
+        padding: 2vmax;
+        border-radius: 20px;
+        box-shadow: 1px 1px 5px 1px rgb(233, 227, 227);
+    }
+
+    .div-page .div1 img {
+        width: 50px;
+    }
+
+    .div1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .name-div {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .name-div h5 {
+        font-size: 16px;
+    }
+
+    .name-div p {
+        font-size: 14px;
+    }
+
+    .trop-main-div {
+        width: 100%;
+        height: 400px;
+        padding: 1vmax;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .trop-main-div h1 {
+        font-size: 40px;
+        padding: 0.3vmax;
+    }
+
+    .trop-main-div h3 {
+        font-size: 20px;
+        font-weight: 400;
+        padding: 0.3vmax;
+    }
+
+    .trop-main-div h4 {
+        font-size: 18px;
+        font-weight: 600;
+        padding: 0.3vmax;
+    }
+
+    .trop-list1 {
+        padding: 1vmax;
+    }
+
+    .trop-list1 ul {
+        display: flex;
+        flex-direction: column;
+        padding-left: 5vmax;
+    }
+
+    .trop-list1 ul li {
+        padding: 0.3vmax;
+    }
+
+    .trop-main-div button {
+        padding: 2vmax 4vmax;
+        width: 40%;
+        border-radius: 20px;
+        border: none;
+        background-color: rgb(255, 72, 0);
+        color: white;
+        font-weight: 700;
+        transition: all 0.5s;
+    }
+
+    .trop-main-div button:hover {
+        box-shadow: 1px 4px 5px 1px rgb(255, 72, 0);
+        background-color: white;
+        color: rgb(255, 72, 0);
+        font-weight: 700;
+    }
+
+    .elipse1{
+        transform: translateY(-200px) translateX(120px);
+        position: absolute;
+    }
+    
+    .elipse1 .eli1{
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 100px;
+        background: conic-gradient(purple 80deg, white 80deg);
+    }
+    
+    .elipse1 .eli2{
+        border-radius: 50%;
+        background: white;
+        height: 80px;
+        width: 80px;
+    }
+    
+    .elipse2{
+        transform: translateY(-450px) translateX(-130px);
+        position: absolute;
+    }
+    
+    .elipse2 .eli1{
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60px;
+        height: 60px;
+        background: conic-gradient(white 270deg, brown 90deg);
+    }
+    
+    .elipse2 .eli2{
+        border-radius: 50%;
+        background: white;
+        height: 40px;
+        width: 40px;
+    }
+    
+    .circle1{
+        transform: translateY(-280px) translateX(-140px);
+        position: absolute;
+    }
+    
+    .circle1 .cir1{
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+        background: rgb(165, 224, 165);
+    }
+    
+    .circle1 .cir2{
+        border-radius: 50%;
+        background: white;
+        height: 20px;
+        width: 20px;
+    }
+    
+    .circle2{
+        transform: translateY(-150px) translateX(-140px);
+        position: absolute;
+    }
+    
+    .circle2 .cir1{
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 15px;
+        height: 15px;
+        background: black;
+    }
+    
+    .circle2 .cir2{
+        border-radius: 50%;
+        background: white;
+        height: 5px;
+        width: 5px;
+    }
+    
+    .quatercircle{
+        transform: translateY(-100px) translateX(140px);
+        position: absolute;
+    }
+    
+    .quatercircle .qc1{
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        background: conic-gradient(orange 90deg, white 90deg);;
+    }
+    
+    .quatercircle .qc2{
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+    }
+}

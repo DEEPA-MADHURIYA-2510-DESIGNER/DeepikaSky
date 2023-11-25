@@ -1,0 +1,348 @@
+.main-about {
+    width: 100%;
+    padding: 1vmax;
+    height: 470px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.about {
+    width: 50%;
+    padding-left: 8vmax;
+}
+
+.about h1 {
+    font-size: 60px;
+}
+
+.about h4 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.about p {
+    font-size: 20px;
+    line-height: 2vmax;
+    padding: 0.3vmax;
+}
+
+.about button {
+    padding: 1vmax 3vmax;
+    width: 25%;
+    margin: 1vmax;
+    margin-left: 0;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(255, 72, 0);
+    color: white;
+    font-weight: 700;
+}
+
+.about button:hover {
+    box-shadow: 1px 4px 5px 1px rgb(255, 72, 0);
+    background-color: white;
+    color: rgb(255, 72, 0);
+    font-weight: 700;
+}
+
+.img-page {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.img-page img {
+    width: 350px;
+}
+
+.elipse1{
+    transform: translateX(80px);
+    position: absolute;
+}
+
+.elipse1 .eli1{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 130px;
+    background: conic-gradient(red 60deg, white 60deg);
+}
+
+.elipse1 .eli2{
+    border-radius: 50%;
+    background: white;
+    height: 100px;
+    width: 100px;
+}
+
+.elipse2{
+    transform: translateY(-220px) translateX(-650px);
+    position: absolute;
+}
+
+.elipse2 .eli1{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    background: conic-gradient(white 270deg, red 90deg);
+}
+
+.elipse2 .eli2{
+    border-radius: 50%;
+    background: white;
+    height: 60px;
+    width: 60px;
+}
+
+.circle1{
+    transform: translateY(200px) translateX(500px);
+    position: absolute;
+}
+
+.circle1 .cir1{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background: rgb(165, 224, 165);
+}
+
+.circle1 .cir2{
+    border-radius: 50%;
+    background: white;
+    height: 20px;
+    width: 20px;
+}
+
+.circle2{
+    transform: translateY(200px) translateX(200px);
+    position: absolute;
+}
+
+.circle2 .cir1{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15px;
+    height: 15px;
+    background: black;
+}
+
+.circle2 .cir2{
+    border-radius: 50%;
+    background: white;
+    height: 5px;
+    width: 5px;
+}
+
+.quatercircle{
+    transform: translateY(150px) translateX(-300px);
+    position: absolute;
+}
+
+.quatercircle .qc1{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background: conic-gradient(orange 90deg, white 90deg);;
+}
+
+.quatercircle .qc2{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    .main-about {
+        width: 100%;
+        padding: 1vmax;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: white;
+    }
+
+    .about {
+        width: 100%;
+        padding-left: 0vmax;
+    }
+
+    .about h1 {
+        font-size: 60px;
+    }
+
+    .about h4 {
+        font-size: 22px;
+        padding: 1vmax;
+        font-weight: 500;
+    }
+
+    .about p {
+        font-size: 18px;
+        line-height: 2.5vmax;
+        padding: 0.3vmax;
+    }
+
+    .about button {
+        padding: 2vmax 4vmax;
+        width: 40%;
+        margin: 1vmax;
+        margin-left: 0;
+        border-radius: 20px;
+        border: none;
+        background-color: rgb(255, 72, 0);
+        color: white;
+        font-weight: 700;
+    }
+
+    .about button:hover {
+        box-shadow: 1px 4px 5px 1px rgb(255, 72, 0);
+        background-color: white;
+        color: rgb(255, 72, 0);
+        font-weight: 700;
+    }
+
+    .img-page {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 2px;
+    }
+
+    .img-page img {
+        width: 300px;
+    }
+
+    .elipse1{
+        display: none;
+        background-color: pink;
+        transform: translateY(800px) translateX(120px);
+        position: absolute;
+    }
+    
+    .elipse1 .eli1{
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 100px;
+        background: conic-gradient(red 80deg, white 80deg);
+    }
+    
+    .elipse1 .eli2{
+        border-radius: 50%;
+        background: white;
+        height: 80px;
+        width: 80px;
+    }
+    
+    .elipse2{
+        display: none;
+        transform: translateY(-150px) translateX(-130px);
+        position: absolute;
+    }
+    
+    .elipse2 .eli1{
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60px;
+        height: 60px;
+        background: conic-gradient(white 270deg, red 90deg);
+    }
+    
+    .elipse2 .eli2{
+        border-radius: 50%;
+        background: white;
+        height: 40px;
+        width: 40px;
+    }
+    
+    .circle1{
+        transform: translateY(380px) translateX(-100px);
+        position: absolute;
+    }
+    
+    .circle1 .cir1{
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+        background: rgb(165, 224, 165);
+    }
+    
+    .circle1 .cir2{
+        border-radius: 50%;
+        background: white;
+        height: 20px;
+        width: 20px;
+    }
+    
+    .circle2{
+        display: none;
+        transform: translateY(800px) translateX(140px);
+        position: absolute;
+    }
+    
+    .circle2 .cir1{
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 15px;
+        height: 15px;
+        background: black;
+    }
+    
+    .circle2 .cir2{
+        border-radius: 50%;
+        background: white;
+        height: 5px;
+        width: 5px;
+    }
+    
+    .quatercircle{
+        transform: translateY(100px) translateX(140px);
+        position: absolute;
+    }
+    
+    .quatercircle .qc1{
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        background: conic-gradient(orange 90deg, white 90deg);;
+    }
+    
+    .quatercircle .qc2{
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+    }
+}

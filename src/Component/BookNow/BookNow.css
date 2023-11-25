@@ -1,0 +1,314 @@
+    .book-main {
+        width: 100%;
+        height: 550px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 1vmax;
+        background-color: white;
+    }
+
+    .book-img {
+        width: 50%;
+        padding-bottom: 8vmax;
+        /* background-color: orange; */
+        display: flex;
+        justify-content: center;
+        /* align-items: center;   */
+    }
+
+    .book-img img {
+        width: 400px;
+    }
+
+    .book-cartt {
+        width: 50%;
+        height: 500px;
+        padding: 1vmax;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .book-box {
+        width: 65%;
+        background-color: white;
+        border-radius: 30px;
+        box-shadow: 0 10px 25px gray;
+    }
+
+    .head {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 2vmax;
+    }
+
+    .head h1 {
+        font-size: 35px;
+        padding: 0.3vmax;
+    }
+
+    .head h5 {
+        font-size: 14px;
+        font-weight: 500;
+        padding: 0.3vmax;
+    }
+
+    .inputes input {
+        padding: 15px;
+        width: 100%;
+        margin-top: 0.3vmax;
+        border: none;
+        text-align: center;
+        background-color: rgb(245, 240, 240);
+    }
+
+    .inputes {
+        padding: 1vmax 0vmax;
+    }
+
+    .boxes {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1vmax 0;
+    }
+
+    .boxx1 input {
+        width: 100%;
+        text-align: center;
+    }
+
+    .boxess {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .btn-main-book input {
+        width: 100%;
+    }
+
+    .btn-main-book {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .add-btn {
+        margin-right: 0.3vmax;
+    }
+
+    .s-btn{
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+
+    .p-btn{
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
+    .btn-main-book button {
+        padding: 1vmax;
+        width: 30px;
+        border: none;
+        background-color: rgb(142, 139, 139, 0.3);
+    }
+
+    .main-btn-of-book{
+        padding: 2vmax 0;
+    }
+
+    .main-btn-of-book button {
+        background-color: black;
+        color: white;
+        padding: 1.2vmax;
+        border: none;
+        border-radius: 10px;
+        transition: all 3s;
+    }
+
+    .main-btn-of-book button:hover{
+        cursor: pointer;
+        background: none;
+        border: 2px solid black;
+        color: black;
+    }
+
+    .contact3{
+        transform: translateY(-100px) translateX(-200px);
+        position: absolute;
+    }
+    
+    .student3 .cir1{
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90px;
+        height: 90px;
+        background: rgb(165, 224, 165);
+    }
+    
+    .student3 .cir2{
+        border-radius: 50%;
+        background: white;
+        height: 70px;
+        width: 70px;
+    }
+
+    @media screen and (min-width: 300px) and (max-width: 600px) {
+        .book-main {
+            width: 100%;
+            height: 900px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            padding: 1vmax;
+            background-color: white;
+        }
+    
+        .book-img {
+            width: 100%;
+            padding-bottom: 2vmax;
+            display: flex;
+            justify-content: center;
+        }
+    
+        .book-img img {
+            width: 300px;
+        }
+    
+        .book-cartt {
+            width: 100%;
+            height: 400px;
+            padding: 1vmax;
+            display: flex;
+            justify-content: flex-start;
+        }
+    
+        .book-box {
+            width: 100%;
+            padding: 1vmax;
+            border-radius: 30px;
+            box-shadow: 0 10px 25px gray;
+        }
+    
+        .head {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 2vmax;
+        }
+    
+        .head h1 {
+            font-size: 30px;
+            padding: 0.3vmax;
+        }
+    
+        .head h5 {
+            font-size: 13px;
+            font-weight: 600;
+            padding: 0.3vmax;
+        }
+    
+        .inputes input {
+            padding: 2vmax;
+            width: 100%;
+            margin-top: 0.3vmax;
+            border: none;
+            text-align: center;
+            background-color: rgb(245, 240, 240);
+        }
+    
+        .inputes {
+            padding: 1vmax 0vmax;
+        }
+    
+        .boxes {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1vmax 0;
+        }
+    
+        .boxx1 input {
+            width: 100%;
+            text-align: center;
+        }
+    
+        .boxess {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+        }
+    
+        .btn-main-book input {
+            width: 100%;
+        }
+    
+        .btn-main-book {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+    
+        .add-btn {
+            margin-right: 0.3vmax;
+        }
+    
+        .s-btn{
+            border-top-left-radius: 15px;
+            border-bottom-left-radius: 15px;
+        }
+    
+        .p-btn{
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 15px;
+        }
+
+        .box-margin{
+            margin-left: 1vmax;
+        }
+    
+        .btn-main-book button {
+            padding: 2vmax 1vmax;
+            width: 30px;
+            border: none;
+            background-color: rgb(142, 139, 139, 0.3);
+        }
+    
+        .main-btn-of-book{
+            padding: 2vmax 0;
+        }
+    
+        .main-btn-of-book button {
+            background-color: black;
+            color: white;
+            padding: 2vmax 4vmax;
+            border: none;
+            border-radius: 10px;
+            transition: all 3s;
+        }
+    
+        .main-btn-of-book button:hover{
+            cursor: pointer;
+            background: none;
+            border: 2px solid black;
+            color: black;
+        }
+    
+    }

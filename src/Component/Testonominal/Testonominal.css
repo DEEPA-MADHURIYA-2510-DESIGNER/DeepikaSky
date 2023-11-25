@@ -1,0 +1,128 @@
+.TestonominalContainer {
+    width: 100%;
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+}
+
+.test-head {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding: 1vmax;
+}
+
+.test-head h1 {
+    font-size: 55px;
+}
+
+.test-head-div {
+    width: 80%;
+    padding: 1vmax;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.head-div {
+    width: 30%;
+    height: 350px;
+    padding: 1vmax;
+    background-color: white;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: all 0.5s;
+
+}
+
+.head-div img {
+    width: 100px;
+}
+
+.head-div:hover {
+    box-shadow: 1px 1px 5px 1px gray;
+    transform: scale(0.9);
+}
+
+.head-div button {
+    padding: 1vmax;
+    background-color: white;
+    border: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    .TestonominalContainer {
+        width: 100%;
+        display: flex;
+        background-color: white;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        height: 1300px;
+    }
+
+    .test-head {
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        padding: 1vmax;
+    }
+
+    .test-head h1 {
+        font-size: 35px;
+    }
+
+    .test-head-div {
+        width: 80%;
+        padding: 1vmax;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .head-div {
+        width: 100%;
+        height: 350px;
+        padding: 1.3vmax;
+        background-color: white;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        transition: all 0.5s;
+        margin: 2vmax;
+    }
+
+    .head-div img {
+        width: 100px;
+    }
+
+    .head-div:hover {
+        box-shadow: 1px 1px 5px 1px gray;
+        transform: scale(0.9);
+    }
+
+    .head-div button {
+        padding: 1vmax;
+        background-color: white;
+        border: none;
+        font-weight: 600;
+        text-transform: uppercase;
+        border-radius: 5px;
+    }
+}
